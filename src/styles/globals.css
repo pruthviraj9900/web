@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
